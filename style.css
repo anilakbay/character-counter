@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #4b96dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 500px;
+  background: #b9e3c3;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  padding: 15px;
+  border: 1px solid #bdc3c7;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #333;
+  background: #fff;
+  outline: none;
+}
+
+.counterContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
+
+.remainingCounter {
+  color: #e74c3c;
+}
+
+.totalCounter {
+  color: #2ecc71;
+}
